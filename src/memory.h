@@ -2,7 +2,7 @@
 #define BEPSVM_MEMORY
 
 typedef struct {
-	uint32_t *ram;
+	uint8_t *ram;
 	uint32_t ram_size;
 } BepsRAM;
 
